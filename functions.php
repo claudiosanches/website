@@ -32,3 +32,21 @@ function woo_display_social_icons() {
 
 	echo $html;
 }
+
+/**
+ * Post meta.
+ *
+ * @return string
+ */
+function woo_post_meta() {
+?>
+
+	<aside class="post-meta">
+		<span class="post-date"><?php the_time( get_option( 'date_format' ) ); ?> </span>
+		<span class="post-category"><?php _e( 'in', 'woothemes' ) ?> <?php the_category( ', ') ?></span>
+		<span class="post-comments"><?php comments_popup_link( __( 'Leave a comment', 'woothemes' ), __( '1 Comment', 'woothemes' ), __( '% Comments', 'woothemes' ) ); ?></span>
+		<?php edit_post_link( __( 'Edit', 'woothemes' ), '<span class="edit">', '</span>' ); ?>
+	</aside>
+
+	<?php
+}
