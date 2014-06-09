@@ -198,3 +198,8 @@ button.button:active,
 .gist table {
 	margin: 0;
 }
+
+/* WP Stats */
+#wpstats {
+	display: none;
+}
