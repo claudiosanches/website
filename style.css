@@ -1,0 +1,176 @@
+/**
+ * Theme Name:   Claudio Sanches
+ * Theme URI:    http://claudiosmweb.com
+ * Description:  Claudio Sanches Child Theme of WooThemes On Topic
+ * Author:       Claudio Sanches
+ * Author URI:   http://claudiosmweb.com
+ * Template:     ontopic
+ * Version:      1.0.0
+ * Text Domain:  woothemes
+*/
+
+@import url("../ontopic/style.css");
+
+@font-face {
+	font-family: 'Social';
+	font-weight: normal;
+	font-style: normal;
+	src: url('includes/fonts/social.eot');
+	src: url('includes/fonts/social.eot?#iefix') format('embedded-opentype'), url('includes/fonts/social.woff') format('woff'), url('includes/fonts/social.ttf') format('truetype'), url('includes/fonts/social.svg#woo-social') format('svg');
+}
+
+/* Global */
+body, .single-post {
+	background: #fcfcfc;
+}
+
+/* Logo */
+#header #logo {
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.site-title {
+	display: block !important;
+}
+
+.home .site-title {
+	display: none !important;
+}
+
+/* Colors */
+::selection,
+::-moz-selection {
+	background: #0099cc;
+}
+
+a {
+	color: #0099cc;
+}
+a:hover {
+	color: #00688b;
+}
+
+#header .site-title {
+	font-size: 3em;
+	line-height: 1.33em;
+}
+
+#header .site-title a,
+#header .site-description a {
+	color: #fff;
+}
+
+#header .site-title a:hover,
+#header .site-description a:hover {
+	color: #aaa;
+	text-decoration: none;
+}
+
+#header .nav-toggle:after {
+	background: #0099cc;
+}
+
+.page article .entry > p:first-child:first-letter,
+.single-post article .entry > p:first-child:first-letter {
+	color: #0099cc;
+}
+
+.post .entry hr,
+.type-page .entry hr {
+	background: #0099cc;
+}
+
+#navigation ul.nav li a {
+	-webkit-tap-highlight-color: #0099cc;
+}
+
+body #navigation ul.nav ul li a:hover {
+	color: #0099cc !important;
+}
+
+#timeline .archives_list .comments a:after {
+	border: 0.4em solid #0099cc;
+}
+
+#connect .social a:before {
+	background: #0099cc;
+}
+
+a.button,
+a.comment-reply-link,
+#commentform #submit,
+.submit,
+input[type=submit],
+input.button,
+button.button,
+#wrapper .woo-sc-button {
+	background: #0099cc;
+}
+
+a.button:hover,
+a.comment-reply-link:hover,
+#commentform #submit:hover,
+.submit:hover,
+input[type=submit]:hover,
+input.button:hover,
+button.button:hover,
+#wrapper .woo-sc-button:hover {
+	background: #00688b;
+	color: #fff;
+	box-shadow: 0 0 0 3px #e0eeee;
+	-webkit-box-shadow: 0 0 0 3px #e0eeee;
+}
+a.button:active,
+a.comment-reply-link:active,
+#commentform #submit:active,
+.submit:active,
+input[type=submit]:active,
+input.button:active,
+button.button:active,
+#wrapper .woo-sc-button:active {
+	border-color: #00688b;
+}
+
+/* Pages */
+
+.page #header #logo,
+.single-post #header #logo,
+.single-product #header #logo {
+	margin: 0 auto;
+	max-width: 70px;
+}
+
+.page #header #logo .avatar,
+.single-post #header #logo .avatar,
+.single-product #header #logo .avatar {
+	margin: 14px auto 0;
+	width: 80%;
+}
+
+/* Footer */
+
+#footer {
+	background: #eee;
+}
+
+/* Social */
+#connect .social a.twitter:before {
+	content: "\e600";
+}
+#connect .social a.github:before {
+	content: "\e602";
+	background: #444;
+}
+#connect .social a.wordpress:before {
+	content: "\e603";
+	background: #464646;
+}
+#connect .social a.linkedin:before {
+	content: "\e604";
+}
+#connect .social a.subscribe:before {
+	content: "\e601";
+}
+
