@@ -35,7 +35,8 @@ body, .single-post {
 	display: block !important;
 }
 
-.home .site-title {
+.home .site-title,
+.archive .site-title {
 	display: none !important;
 }
 
@@ -133,7 +134,11 @@ button.button:active,
 	border-color: #00688b;
 }
 
-/* Pages */
+#comments .comment.bypostauthor > .comment-container {
+	border: 3px solid #00688b;
+}
+
+/* Pages/Posts */
 
 .page #header #logo,
 .single-post #header #logo,
@@ -147,6 +152,11 @@ button.button:active,
 .single-product #header #logo .avatar {
 	margin: 14px auto 0;
 	width: 80%;
+}
+
+.post .post-more,
+.type-page .post-more {
+	clear: both;
 }
 
 /* Footer */
@@ -174,3 +184,17 @@ button.button:active,
 	content: "\e601";
 }
 
+.home #connect,
+.archive #connect {
+	text-align: center;
+}
+
+/* Comments */
+#comments ul.children {
+	margin: 0 0 0 3em;
+}
+
+/* Gist */
+.gist table {
+	margin: 0;
+}

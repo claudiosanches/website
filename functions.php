@@ -5,7 +5,7 @@
  * @return string
  */
 function woo_logo() {
-	if ( is_home() || is_front_page() ) {
+	if ( is_home() || is_front_page() || is_archive() ) {
 		echo '<a id="logo" href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'description' ) ) . '">' . get_avatar( get_option( 'admin_email' ), 200 ) . '</a>';
 	}
 }
