@@ -212,3 +212,11 @@ button.button:active,
 #wpstats {
 	display: none;
 }
+
+/* Images */
+.post img.wp-smiley,
+.type-page img.wp-smiley {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	vertical-align: middle;
+}
