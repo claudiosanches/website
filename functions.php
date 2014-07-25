@@ -50,3 +50,14 @@ function woo_post_meta() {
 
 	<?php
 }
+
+/**
+ * Register custom scritps.
+ *
+ * @return void
+ */
+function woo_cs_custom_scripts() {
+	wp_enqueue_script( 'woo-cs-theme-scripts', get_stylesheet_directory_uri() . '/assets/js/theme-scripts.min.js', array( 'jquery' ), '1.0.0', true );
+}
+
+add_action( 'wp_enqueue_scripts', 'woo_cs_custom_scripts' );
