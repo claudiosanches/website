@@ -220,3 +220,29 @@ button.button:active,
 	box-shadow: none;
 	vertical-align: middle;
 }
+
+/* Contact page */
+.contact-form .contact-form-fields-wrap,
+.contact-form .contact-submit,
+.contact-form .no-display {
+	display: none;
+}
+
+.contact-form select {
+	-webkit-border-radius: 300px;
+	border-radius: 300px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	padding: .236em .5em;
+	border: 3px solid #eaeaea;
+	font-size: 1em;
+	line-height: 1.618em;
+	background: #fff;
+	font-family: inherit;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 98%;
+}
