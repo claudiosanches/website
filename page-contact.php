@@ -40,7 +40,7 @@ get_header();
 									<option value="contact">Desejo apenas entrar em contato com você sobre qualquer outra coisa</option>
 								</select>
 
-								<div class="woo-sc-box note full no-display" data-target="woocommerce">Se você precisa de ajuda com o WooCommerce você pode tentar o grupo <a href="https://www.facebook.com/groups/woocommerce.brasil/">WooCommerce Brasil</a>. Infelizmente fica muito complicado pra mim ajudar pessoas por e-mail, além de que se eu lhe ajudar por e-mail. Além que utilizando o grupo é legal que sua dúvida pode ser a dúvida de outras pessoas e assim a resposta vai ajudar todo mundo :)</div>
+								<div class="woo-sc-box note full no-display" data-target="woocommerce">Se você precisa de ajuda com o WooCommerce, eu recomendo utilizar o grupo <a href="https://www.facebook.com/groups/woocommerce.brasil/">WooCommerce Brasil</a>. Infelizmente fica muito complicado pra mim ajudar pessoas por e-mail. Além que utilizando o grupo é legal que sua dúvida pode ser a dúvida de outras pessoas e assim a resposta vai ajudar todo mundo :)</div>
 
 								<div class="woo-sc-box note full no-display" data-target="plugin">Por favor, leia primeiro o guia de instalação e a FAQ do plugin. Eu me dedico muito para adicionar na FAQ de cada plugin a maior quantidade de dúvidas e respostas que eu consigo. Caso você já tenha feito isso e ainda esta com dúvidas, eu lhe peço para publicar sua dúvida no fórum do plugin no WordPress.org ou no Github, você vai encontrar esses fóruns na página do plugin no WordPress.org também :)</div>
 
