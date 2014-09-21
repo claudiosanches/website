@@ -222,12 +222,6 @@ button.button:active,
 }
 
 /* Contact page */
-.contact-form .contact-form-fields-wrap,
-.contact-form .contact-submit,
-.contact-form .no-display {
-	display: none;
-}
-
 .contact-form select {
 	-webkit-border-radius: 300px;
 	border-radius: 300px;
