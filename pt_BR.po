@@ -698,12 +698,12 @@ msgstr ""
 #, php-format
 #@ woothemes
 msgid "Search results for &quot;%1$s&quot;"
-msgstr ""
+msgstr "Resultados da pesquisa por &quot;%1$s&quot;"
 
 #: functions/admin-functions.php:2334
 #@ woothemes
 msgid "404 Not Found"
-msgstr ""
+msgstr "404 - Nada encontrado"
 
 #: functions/admin-functions.php:2570
 #@ woothemes
@@ -1280,7 +1280,7 @@ msgstr ""
 #: includes/theme-actions.php:481
 #@ woothemes
 msgid "Search..."
-msgstr ""
+msgstr "Pesquisar..."
 
 #: includes/theme-comments.php:21
 #@ woothemes
@@ -3112,7 +3112,7 @@ msgstr "{ Editar }"
 #: search.php:26
 #@ woothemes
 msgid "Search results"
-msgstr ""
+msgstr "Resultados da pesquisa"
 
 #: single.php:69
 #@ woothemes

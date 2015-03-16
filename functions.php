@@ -5,7 +5,7 @@
  * @return string
  */
 function woo_logo() {
-	if ( is_home() || is_front_page() || is_archive() ) {
+	if ( is_home() || is_front_page() || is_archive() || is_search() ) {
 		echo '<a id="logo" href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'description' ) ) . '">' . get_avatar( get_option( 'admin_email' ), 200 ) . '</a>';
 	}
 }
@@ -50,6 +50,24 @@ function woo_post_meta() {
 
 	<?php
 }
+
+function the_commenter_link() {
+	$commenter = get_comment_author_link();
+
+	if ( preg_match( '/]* class=[^>]+>/', $commenter ) ) {
+		$commenter = preg_replace( '(]* class=[\'"]?)', '${0}url ' , $commenter );
+	} else {
+		$commenter = preg_replace( '(<a )', '${0}class="url"' , $commenter );
+	}
+
+	echo $commenter;
+}
+
+function woo_cs_header_search() {
+	get_search_form();
+}
+
+add_action( 'woo_nav_after', 'woo_cs_header_search' );
 
 /**
  * Register custom scritps.

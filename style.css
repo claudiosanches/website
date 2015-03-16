@@ -20,7 +20,9 @@
 }
 
 /* Global */
-body, .single-post {
+body,
+.single-post
+.page {
 	background: #fcfcfc;
 }
 
@@ -45,7 +47,8 @@ code {
 }
 
 .home .site-title,
-.archive .site-title {
+.archive .site-title,
+.search .site-title {
 	display: none !important;
 }
 
@@ -62,9 +65,20 @@ a:hover {
 	color: #00688b;
 }
 
+/* Header */
+#header:before,
+#header:after {
+	content: " ";
+	display: table;
+}
+
+#header:after {
+	clear: both;
+}
+
 #header .site-title {
-	font-size: 3em;
-	line-height: 1.33em;
+	font-size: 2.4em !important;
+	line-height: 1.54em;
 }
 
 #header .site-title a,
@@ -80,6 +94,13 @@ a:hover {
 
 #header .nav-toggle:after {
 	background: #0099cc;
+}
+
+#header,
+.page #header,
+.single-post #header,
+.single-product #header {
+	margin-bottom: 0 !important;
 }
 
 .page article .entry > p:first-child:first-letter,
@@ -147,6 +168,11 @@ button.button:active,
 	border: 3px solid #00688b;
 }
 
+/* Navigation */
+#navigation {
+	margin-bottom: 0;
+}
+
 /* Pages/Posts */
 
 .page #header #logo,
@@ -194,7 +220,8 @@ button.button:active,
 }
 
 .home #connect,
-.archive #connect {
+.archive #connect,
+.search #connect {
 	text-align: center;
 }
 
@@ -239,4 +266,58 @@ button.button:active,
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 98%;
+}
+
+/* Search form */
+.search_main #searchform #s {
+	color: #555;
+	padding: 0.1em 2.618em 0.1em 0.857em;
+}
+
+.single .search_main,
+.page .search_main {
+	float: right;
+	width: auto;
+	margin: 1.618em 1em;
+	clear: none;
+}
+
+.single .search_main #searchform,
+.page .search_main #searchform {
+	margin: 0;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 767px) {
+	#header #logo {
+		display: none !important;
+	}
+
+	#header .site-title {
+		margin-bottom: 0.6em;
+	}
+
+	.home .site-title,
+	.archive .site-title,
+	.search .site-title {
+		display: block !important;
+	}
+
+	#header #connect {
+		text-align: center;
+	}
+
+	.single .search_main,
+	.page .search_main {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+
+	.single .search_main,
+	.page .search_main {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
 }
