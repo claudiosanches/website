@@ -29,7 +29,8 @@ module.exports = function( grunt ){
 					'<%= dirs.js %>/theme-scripts.min.js': [
 						'<%= dirs.js %>/libs/*.js',
 						'<%= dirs.js %>/theme-scripts.js'
-					]
+					],
+					'<%= dirs.js %>/jquery.fitvids.min.js': '<%= dirs.js %>/jquery.fitvids.js'
 				}
 			}
 		},

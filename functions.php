@@ -70,12 +70,28 @@ function woo_cs_header_search() {
 add_action( 'woo_nav_after', 'woo_cs_header_search' );
 
 /**
- * Register custom scritps.
+ * Custom <body> classes.
  *
- * @return void
+ * @param  array $classes
+ *
+ * @return array
  */
-function woo_cs_custom_scripts() {
-	wp_enqueue_script( 'woo-cs-theme-scripts', get_stylesheet_directory_uri() . '/assets/js/theme-scripts.min.js', array( 'jquery' ), '1.0.0', true );
+function wc_custom_body_classes( $classes ) {
+	if ( is_singular( 'projects' ) ) {
+		$classes[] = 'single-post';
+	}
+
+	return $classes;
 }
 
-add_action( 'wp_enqueue_scripts', 'woo_cs_custom_scripts' );
+add_filter( 'body_class', 'wc_custom_body_classes' );
+
+/**
+ * Register custom scritps.
+ */
+function woo_cs_custom_scripts() {
+	wp_dequeue_script( 'fitvids' );
+	wp_enqueue_script( 'fitvids', get_stylesheet_directory_uri() . '/assets/js/jquery.fitvids.min.js', array( 'jquery' ), '1.1' );
+}
+
+add_action( 'wp_enqueue_scripts', 'woo_cs_custom_scripts', 10 );
