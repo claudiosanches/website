@@ -287,6 +287,48 @@ button.button:active,
 	margin: 0;
 }
 
+/* Projects */
+#projects-options ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+
+#projects-options li {
+	list-style: none;
+	display: inline;
+}
+
+.icon {
+	position: relative;
+}
+
+.icon:before {
+	font-family: 'FontAwesome';
+	display: inline-block;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 1em;
+	text-align: left;
+	margin: 0 10px 0 0;
+}
+
+.icon-github:before {
+	content: '\f09b';
+}
+
+.icon-gift:before {
+	content: '\f06b';
+}
+
+.icon-doc:before {
+	content: '\f0f6';
+}
+
+.icon-download:before {
+	content: '\f0ed';
+}
+
 /* Responsive styles */
 @media only screen and (max-width: 767px) {
 	#header #logo {
