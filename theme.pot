@@ -1,46 +1,40 @@
+# Copyright (C) 2015 
+# This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
-"Project-Id-Version: On Topic v1.2.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/claudiosanches/"
-"style\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: "
+"http://wordpress.org/support/theme/claudiosanches/style\n"
 "POT-Creation-Date: 2015-03-21 06:57:07+00:00\n"
-"PO-Revision-Date: 2015-03-21 04:00-0300\n"
-"Last-Translator: Claudio Sanches <contato@claudiosmweb.com>\n"
-"Language-Team: \n"
-"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
-"X-Poedit-Basepath: ../\n"
-"X-Textdomain-Support: yes\n"
-"X-Poedit-SearchPath-0: .\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.0\n"
 
 #: ontopic/template-timeline.php:83
 msgid "0"
-msgstr "0"
+msgstr ""
 
 #: ontopic/template-timeline.php:83
 msgid "1"
-msgstr "1"
+msgstr ""
 
 #: claudiosanches/archive-projects.php:15
 #: ontopic/functions/classes/class-wf-screen-admin-base.php:293
 msgid "Projects"
-msgstr "Projetos"
+msgstr ""
 
 #: claudiosanches/archive-projects.php:39 ontopic/content-blog.php:44
 #: ontopic/content.php:45
 msgid "Continue Reading"
-msgstr "Continue lendo"
+msgstr ""
 
 #: claudiosanches/archive-projects.php:39
 msgid "See Details"
-msgstr "Ver detalhes"
+msgstr ""
 
 #: claudiosanches/archive-projects.php:49
 #: claudiosanches/single-projects.php:102 ontopic/archive.php:72
@@ -49,72 +43,72 @@ msgstr "Ver detalhes"
 #: ontopic/template-business.php:106 ontopic/template-fullwidth.php:44
 #: ontopic/template-styleguide.php:378
 msgid "Sorry, no posts matched your criteria."
-msgstr "Desculpe, nenhum conteúdo combina com seus critérios."
+msgstr ""
 
 #: claudiosanches/functions.php:24
 msgid "Siga no Twitter"
-msgstr "Siga no Twitter"
+msgstr ""
 
 #: claudiosanches/functions.php:25
 msgid "Siga no GitHub"
-msgstr "Siga no Github"
+msgstr ""
 
 #: claudiosanches/functions.php:26
 msgid "Meus projetos no WordPress.org"
-msgstr "Meus projetos no WordPress.org"
+msgstr ""
 
 #: claudiosanches/functions.php:27
 msgid "Adicione no LinkedIn"
-msgstr "Adicione no LinkedIn"
+msgstr ""
 
 #: claudiosanches/functions.php:28
 msgid "Assinar Feed RSS"
-msgstr "Assinar Feed RSS"
+msgstr ""
 
 #: claudiosanches/functions.php:46 ontopic/includes/theme-functions.php:150
 msgid "in"
-msgstr "em"
+msgstr ""
 
 #: claudiosanches/functions.php:47 ontopic/includes/theme-functions.php:151
 msgid "Leave a comment"
-msgstr "Faça um comentário"
+msgstr ""
 
 #: claudiosanches/functions.php:47 ontopic/includes/homepage-topics.php:46
 #: ontopic/includes/theme-functions.php:151
 msgid "1 Comment"
-msgstr "1 comentário"
+msgstr ""
 
 #: claudiosanches/functions.php:47 ontopic/comments.php:32
 #: ontopic/includes/theme-functions.php:151
 msgid "% Comments"
-msgstr "% comentários"
+msgstr ""
 
 #: claudiosanches/functions.php:48 ontopic/includes/theme-comments.php:23
 #: ontopic/includes/theme-functions.php:152
 msgid "Edit"
-msgstr "Editar"
+msgstr ""
 
 #: claudiosanches/single-projects.php:50
 msgid "View on Github"
-msgstr "Ver no Github"
+msgstr ""
 
 #: claudiosanches/single-projects.php:56
 msgid "Donate"
-msgstr "Fazer doação"
+msgstr ""
 
 #: claudiosanches/single-projects.php:62
 #: ontopic/functions/admin-interface.php:83
 msgid "Documentation"
-msgstr "Documentação"
+msgstr ""
 
 #: claudiosanches/single-projects.php:69
 #: ontopic/functions/classes/class-wf-screen-admin-base.php:192
 msgid "Download"
-msgstr "Baixar"
+msgstr ""
 
 #: claudiosanches/single-projects.php:85
 msgid "Download &quot;%s&quot;"
-msgstr "Baixar &quot;%s&quot;"
+msgstr ""
 
 #: claudiosanches/single-projects.php:90 ontopic/page.php:36
 #: ontopic/single.php:68
@@ -123,70 +117,66 @@ msgstr ""
 
 #: ontopic/404.php:16
 msgid "Error 404 - Page not found!"
-msgstr "Erro 404 - Página não encontrada!"
+msgstr ""
 
 #: ontopic/404.php:19
 msgid ""
 "The page you trying to reach does not exist, or has been moved. Please use "
 "the menus or the search box to find what you are looking for."
 msgstr ""
-"A página que você tentar acessar não existe, ou foi movida. Por favor, "
-"utilize os menus ou a caixa de busca para encontrar o que você está "
-"procurando."
 
 #: ontopic/archive.php:16
 msgid "RSS feed for this section"
-msgstr "Feed para esta seção"
+msgstr ""
 
 #: ontopic/archive.php:17 ontopic/archive.php:22 ontopic/archive.php:27
 #: ontopic/archive.php:32
 msgid "Archive"
-msgstr "Arquivo"
+msgstr ""
 
 #: ontopic/archive.php:37
 msgid "Archive by Author"
-msgstr "Arquivo por autor"
+msgstr ""
 
 #: ontopic/archive.php:42
 msgid "Tag Archives:"
-msgstr "Arquivo da tag:"
+msgstr ""
 
 #: ontopic/comments.php:20
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
-"Este post é protegido por senha. Digite a senha para ver os comentários."
 
 #: ontopic/comments.php:32
 msgid "No Comments"
-msgstr "Nenhum comentário"
+msgstr ""
 
 #: ontopic/comments.php:32
 msgid "One Comment"
-msgstr "Um comentário"
+msgstr ""
 
 #: ontopic/comments.php:48
 msgid "Trackbacks/Pingbacks"
-msgstr "Trackbacks/Pingbacks"
+msgstr ""
 
 #: ontopic/comments.php:65
 msgid "No comments yet."
-msgstr "Sem nenhum comentário ainda."
+msgstr ""
 
 #: ontopic/content-blog.php:39 ontopic/content.php:40
 msgid "Continue Reading &rarr;"
-msgstr "Continue lendo &rarr;"
+msgstr ""
 
 #: ontopic/footer.php:51
 msgid "All Rights Reserved."
-msgstr "Todos os direitos reservados."
+msgstr ""
 
 #: ontopic/footer.php:59
 msgid "Powered by"
-msgstr "Powered by"
+msgstr ""
 
 #: ontopic/footer.php:59
 msgid "Designed by"
-msgstr "Designed by"
+msgstr ""
 
 #: ontopic/functions/admin-custom-nav.php:29
 msgid ""
@@ -212,8 +202,8 @@ msgstr ""
 
 #: ontopic/functions/admin-functions.php:1126
 msgid ""
-"This updater will download and extract the latest WooFramework files to your "
-"current theme's functions folder."
+"This updater will download and extract the latest WooFramework files to "
+"your current theme's functions folder."
 msgstr ""
 
 #: ontopic/functions/admin-functions.php:1127
@@ -367,11 +357,11 @@ msgstr ""
 
 #: ontopic/functions/admin-functions.php:2882
 msgid "Search results for &quot;%1$s&quot;"
-msgstr "Resultados da pesquisa por &quot;%1$s&quot;"
+msgstr ""
 
 #: ontopic/functions/admin-functions.php:2886
 msgid "404 Not Found"
-msgstr "404 - Nada encontrado"
+msgstr ""
 
 #: ontopic/functions/admin-functions.php:3169
 msgid "View %s"
@@ -444,8 +434,8 @@ msgstr ""
 
 #: ontopic/functions/admin-interface.php:231
 msgid ""
-"If you've added \"thumb.php\" to your child theme manually please ensure the "
-"file is kept up to date. You can then safely hide this notice."
+"If you've added \"thumb.php\" to your child theme manually please ensure "
+"the file is kept up to date. You can then safely hide this notice."
 msgstr ""
 
 #: ontopic/functions/admin-interface.php:264
@@ -456,8 +446,8 @@ msgstr ""
 
 #: ontopic/functions/admin-interface.php:309
 msgid ""
-"An important WooFramework update is available (v%s). %sDownload new version"
-"%s (%sSee Changelog%s)"
+"An important WooFramework update is available (v%s). %sDownload new "
+"version%s (%sSee Changelog%s)"
 msgstr ""
 
 #: ontopic/functions/admin-medialibrary-uploader.php:51
@@ -525,8 +515,9 @@ msgstr ""
 #: ontopic/functions/js/shortcode-generator/dialog.php:76
 msgid ""
 "The framework is a collection of functionality that all WooThemes have in "
-"common. In most cases you can update the framework even if you have modified "
-"your theme, because the framework resides in a separate location (under %s)."
+"common. In most cases you can update the framework even if you have "
+"modified your theme, because the framework resides in a separate location "
+"(under %s)."
 msgstr ""
 
 #: ontopic/functions/admin-shortcode-generator.php:196
@@ -594,7 +585,7 @@ msgstr ""
 #: ontopic/includes/theme-functions.php:214
 #: ontopic/includes/theme-functions.php:223
 msgid "Submit"
-msgstr "Enviar"
+msgstr ""
 
 #: ontopic/functions/admin-shortcodes.php:1347
 msgid "Please enter your name"
@@ -608,28 +599,24 @@ msgstr ""
 msgid "Please enter your message"
 msgstr ""
 
-# @ default
 #: ontopic/functions/admin-shortcodes.php:1375
 #: ontopic/functions/admin-shortcodes.php:1473
 #: ontopic/includes/theme-functions.php:304 ontopic/template-contact.php:222
 msgid "Name"
-msgstr "Nome"
+msgstr ""
 
-# @ default
 #: ontopic/functions/admin-shortcodes.php:1375
 #: ontopic/functions/admin-shortcodes.php:1482 ontopic/header.php:161
 #: ontopic/includes/theme-functions.php:307 ontopic/template-contact.php:229
 msgid "Email"
-msgstr "E-mail"
+msgstr ""
 
 #: ontopic/functions/admin-shortcodes.php:1375
-#: ontopic/functions/admin-shortcodes.php:1491
-#: ontopic/template-contact.php:236
+#: ontopic/functions/admin-shortcodes.php:1491 ontopic/template-contact.php:236
 msgid "Message"
-msgstr "Mensagem"
+msgstr ""
 
-#: ontopic/functions/admin-shortcodes.php:1443
-#: ontopic/template-contact.php:126
+#: ontopic/functions/admin-shortcodes.php:1443 ontopic/template-contact.php:126
 msgid "Your email was successfully sent."
 msgstr ""
 
@@ -637,18 +624,15 @@ msgstr ""
 msgid "There were one or more errors while submitting the form."
 msgstr ""
 
-#: ontopic/functions/admin-shortcodes.php:1454
-#: ontopic/template-contact.php:213
+#: ontopic/functions/admin-shortcodes.php:1454 ontopic/template-contact.php:213
 msgid "E-mail has not been setup properly. Please add your contact e-mail!"
 msgstr ""
 
-#: ontopic/functions/admin-shortcodes.php:1609
-#: ontopic/template-contact.php:242
+#: ontopic/functions/admin-shortcodes.php:1609 ontopic/template-contact.php:242
 msgid "Send a copy of this email to yourself"
 msgstr ""
 
-#: ontopic/functions/admin-shortcodes.php:1616
-#: ontopic/template-contact.php:243
+#: ontopic/functions/admin-shortcodes.php:1616 ontopic/template-contact.php:243
 msgid "If you want to submit this form, do not enter anything in this field"
 msgstr ""
 
@@ -665,7 +649,7 @@ msgstr ""
 
 #: ontopic/functions/admin-shortcodes.php:2223
 msgid "Follow"
-msgstr "Seguir"
+msgstr ""
 
 #: ontopic/functions/admin-shortcodes.php:2340
 msgid "Pin It"
@@ -737,8 +721,8 @@ msgstr ""
 #: ontopic/functions/classes/class-wf-backup.php:148
 msgid ""
 "Please note that this backup manager backs up only your settings and not "
-"your content. To backup your content, please use the %sWordPress Export Tool"
-"%s."
+"your content. To backup your content, please use the %sWordPress Export "
+"Tool%s."
 msgstr ""
 
 #: ontopic/functions/classes/class-wf-backup.php:151
@@ -826,7 +810,7 @@ msgstr ""
 #: ontopic/functions/classes/class-wf-fields.php:1344
 #: ontopic/functions/deprecated.php:366 ontopic/functions/deprecated.php:1223
 msgid "@"
-msgstr "@"
+msgstr ""
 
 #: ontopic/functions/classes/class-wf-meta.php:76
 #: ontopic/functions/classes/class-wf-meta.php:86
@@ -925,7 +909,7 @@ msgstr ""
 
 #: ontopic/functions/classes/class-wf-screen-framework.php:79
 msgid "%s"
-msgstr "%s"
+msgstr ""
 
 #: ontopic/functions/classes/class-wf-screen-framework.php:94
 msgid "Update WooFramework"
@@ -937,7 +921,7 @@ msgstr ""
 
 #: ontopic/functions/classes/class-wf-screen-framework.php:96
 msgid "Read the Documentation"
-msgstr "Ler a documentação"
+msgstr ""
 
 #: ontopic/functions/classes/class-wf-screen-framework.php:112
 msgid "Theme"
@@ -973,7 +957,7 @@ msgstr ""
 
 #: ontopic/functions/classes/class-wf-screen-welcome.php:106
 msgid "View Documentation &rarr;"
-msgstr "Ver documentação  &rarr;"
+msgstr ""
 
 #: ontopic/functions/classes/class-wf-screen-welcome.php:136
 msgid "Version %s"
@@ -1054,18 +1038,19 @@ msgstr ""
 
 #: ontopic/includes/featured-slider.php:103
 msgid ""
-"Please add some slides in the WordPress admin to show in the Featured Slider."
+"Please add some slides in the WordPress admin to show in the Featured "
+"Slider."
 msgstr ""
 
 #: ontopic/includes/homepage-topics.php:45
 msgid "1 Post"
 msgid_plural "%s Posts"
-msgstr[0] "1 post"
-msgstr[1] "%s posts"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ontopic/includes/homepage-topics.php:48 ontopic/index.php:28
 msgid "Articles"
-msgstr "Posts"
+msgstr ""
 
 #: ontopic/includes/integrations/projects/template-recent-projects.php:14
 msgid "Recent Projects"
@@ -1081,11 +1066,11 @@ msgstr ""
 
 #: ontopic/includes/theme-actions.php:481
 msgid "Search..."
-msgstr "Pesquisar..."
+msgstr ""
 
 #: ontopic/includes/theme-comments.php:21
 msgid "at"
-msgstr "ás"
+msgstr ""
 
 #: ontopic/includes/theme-comments.php:22
 msgid "Direct link to this comment"
@@ -1097,15 +1082,15 @@ msgstr ""
 
 #: ontopic/includes/theme-functions.php:93
 msgid "Primary Menu"
-msgstr "Menu Primário"
+msgstr ""
 
 #: ontopic/includes/theme-functions.php:126
 msgid "Older posts"
-msgstr "Posts antigos"
+msgstr ""
 
 #: ontopic/includes/theme-functions.php:127
 msgid "Newer posts"
-msgstr "Novos posts"
+msgstr ""
 
 #: ontopic/includes/theme-functions.php:169
 #: ontopic/includes/theme-functions.php:203
@@ -1130,14 +1115,13 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
-# @ default
 #: ontopic/includes/theme-functions.php:310
 msgid "Website"
 msgstr ""
 
 #: ontopic/includes/theme-functions.php:330
 msgid "Submit Comment"
-msgstr "Enviar comentário"
+msgstr ""
 
 #: ontopic/includes/theme-functions.php:331
 msgid "Click here to cancel reply."
@@ -1234,8 +1218,7 @@ msgid "Text Title"
 msgstr ""
 
 #: ontopic/includes/theme-options.php:298
-msgid ""
-"Enable text-based Site Title and Tagline. Setup title & tagline in %1$s."
+msgid "Enable text-based Site Title and Tagline. Setup title & tagline in %1$s."
 msgstr ""
 
 #: ontopic/includes/theme-options.php:304
@@ -1452,8 +1435,7 @@ msgid "Background Attachment"
 msgstr ""
 
 #: ontopic/includes/theme-options.php:440
-msgid ""
-"Select whether the background should be fixed or move when the user scrolls"
+msgid "Select whether the background should be fixed or move when the user scrolls"
 msgstr ""
 
 #: ontopic/includes/theme-options.php:446
@@ -1501,8 +1483,7 @@ msgid "Link Hover Color"
 msgstr ""
 
 #: ontopic/includes/theme-options.php:478
-msgid ""
-"Pick a custom color for links hover or add a hex color code e.g. #697e09"
+msgid "Pick a custom color for links hover or add a hex color code e.g. #697e09"
 msgstr ""
 
 #: ontopic/includes/theme-options.php:483
@@ -1652,8 +1633,7 @@ msgid "Display Features"
 msgstr ""
 
 #: ontopic/includes/theme-options.php:599
-msgid ""
-"Display Features beneath the page content? Requires %sFeatures%s plugin."
+msgid "Display Features beneath the page content? Requires %sFeatures%s plugin."
 msgstr ""
 
 #: ontopic/includes/theme-options.php:599
@@ -1693,8 +1673,7 @@ msgid "Custom Placeholder"
 msgstr ""
 
 #: ontopic/includes/theme-options.php:625
-msgid ""
-"Upload a custom placeholder to be displayed when there is no product image."
+msgid "Upload a custom placeholder to be displayed when there is no product image."
 msgstr ""
 
 #: ontopic/includes/theme-options.php:630
@@ -1792,8 +1771,8 @@ msgstr ""
 #: ontopic/includes/theme-options.php:708
 msgid ""
 "There are two alternative methods of dynamically resizing the thumbnails in "
-"the theme, <strong>WP Post Thumbnail</strong> (default) or <strong>TimThumb</"
-"strong>."
+"the theme, <strong>WP Post Thumbnail</strong> (default) or "
+"<strong>TimThumb</strong>."
 msgstr ""
 
 #: ontopic/includes/theme-options.php:711
@@ -1834,12 +1813,13 @@ msgstr ""
 
 #: ontopic/includes/theme-options.php:733
 msgid ""
-"This will enable the <a href=\"http://code.google.com/p/timthumb/"
-"\">TimThumb</a> (thumb.php) script which dynamically resizes images added "
-"through the <strong>custom settings panel</strong>  below the post editor. "
-"Make sure your themes <em>cache</em> folder is writable. <a href=\"http://"
-"www.woothemes.com/2008/10/troubleshooting-image-resizer-thumbphp/\">Need "
-"help?</a>"
+"This will enable the <a "
+"href=\"http://code.google.com/p/timthumb/\">TimThumb</a> (thumb.php) script "
+"which dynamically resizes images added through the <strong>custom settings "
+"panel</strong>  below the post editor. Make sure your themes <em>cache</em> "
+"folder is writable. <a "
+"href=\"http://www.woothemes.com/2008/10/troubleshooting-image-resizer-"
+"thumbphp/\">Need help?</a>"
 msgstr ""
 
 #: ontopic/includes/theme-options.php:738
@@ -1862,8 +1842,8 @@ msgstr ""
 
 #: ontopic/includes/theme-options.php:748
 msgid ""
-"Enter an integer value i.e. 250 for the desired size which will be used when "
-"dynamically creating the images."
+"Enter an integer value i.e. 250 for the desired size which will be used "
+"when dynamically creating the images."
 msgstr ""
 
 #: ontopic/includes/theme-options.php:755
@@ -2245,8 +2225,7 @@ msgid "Enable Subscribe and Connect"
 msgstr ""
 
 #: ontopic/includes/theme-options.php:1016
-msgid ""
-"Enable the subscribe and connect functionality on the contact page template"
+msgid "Enable the subscribe and connect functionality on the contact page template"
 msgstr ""
 
 #: ontopic/includes/theme-options.php:1021
@@ -2380,8 +2359,8 @@ msgstr ""
 #: ontopic/includes/theme-woocommerce.php:298
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] "%d item"
-msgstr[1] "%d itens"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ontopic/includes/widgets/widget-woo-adspace.php:12
 msgid "Woo - Adspace Widget"
@@ -2552,28 +2531,28 @@ msgstr ""
 
 #: ontopic/index.php:29
 msgid "Topics"
-msgstr "Assuntos"
+msgstr ""
 
 #: ontopic/page.php:39 ontopic/template-fullwidth.php:35
 #: ontopic/template-styleguide.php:364
 msgid "{ Edit }"
-msgstr "{ Editar }"
+msgstr ""
 
 #: ontopic/search.php:26
 msgid "Search results"
-msgstr "Resultados da pesquisa"
+msgstr ""
 
 #: ontopic/single.php:69
 msgid "Tagged as: "
-msgstr "Marcado como: "
+msgstr ""
 
 #: ontopic/single.php:78
 msgid "About %s"
-msgstr "Sobre %s"
+msgstr ""
 
 #: ontopic/single.php:82
 msgid "View all posts by %s"
-msgstr "Ver todas os posts de %s"
+msgstr ""
 
 #: ontopic/template-contact.php:30
 msgid "You forgot to enter your name."
@@ -2677,15 +2656,15 @@ msgstr ""
 
 #: ontopic/template-sitemap.php:59
 msgid "Posts per category"
-msgstr "Posts por categoria"
+msgstr ""
 
 #: ontopic/template-sitemap.php:71
 msgid "Comments"
-msgstr "Comentários"
+msgstr ""
 
 #: ontopic/template-timeline.php:83
 msgid "%"
-msgstr "%"
+msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Blog"

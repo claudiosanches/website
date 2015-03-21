@@ -2,6 +2,9 @@
 module.exports = function( grunt ){
 	'use strict';
 
+	var path = require( 'path' );
+	var ontopic_path = path.resolve( __dirname, '../ontopic/' );
+
 	grunt.initConfig({
 		// setting folder templates
 		dirs: {
@@ -44,6 +47,25 @@ module.exports = function( grunt ){
 				],
 				tasks: ['jshint', 'uglify']
 			}
+		},
+
+		makepot: {
+			dist: {
+				options: {
+					cwd: '../',
+					type: 'wp-theme',
+					potFilename: 'theme.pot',
+					mainFile: 'claudiosanches/style.css',
+					domainPath: 'claudiosanches/',
+					include: [
+						'claudiosanches/.*',
+						'ontopic/.*'
+					],
+					exclude: [
+						'claudiosanches/node_modules/.*'
+					]
+				}
+			}
 		}
 	});
 
@@ -51,6 +73,7 @@ module.exports = function( grunt ){
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
+	grunt.loadNpmTasks( 'grunt-wp-i18n' );
 
 	// Register tasks
 	grunt.registerTask( 'default', [
