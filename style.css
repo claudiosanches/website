@@ -48,7 +48,8 @@ code {
 
 .home .site-title,
 .archive .site-title,
-.search .site-title {
+.search .site-title,
+.error404 .site-title {
 	display: none !important;
 }
 
@@ -221,7 +222,8 @@ button.button:active,
 
 .home #connect,
 .archive #connect,
-.search #connect {
+.search #connect,
+.error404 #connect {
 	text-align: center;
 }
 
@@ -288,6 +290,90 @@ button.button:active,
 }
 
 /* Projects */
+#projects-grid {
+	margin: 0 0 9.505em 0;
+}
+#projects-grid article {
+	padding: 5%;
+	list-style: none;
+	border-bottom: 1px solid #eaeaea;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#projects-grid article h2 {
+	margin: 0 0 .5em;
+	font-size: 1.4em;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+#projects-grid article h2 a {
+	color: #1c1c1c;
+}
+#projects-grid article p {
+	margin: 0 0 1.387em 0;
+	font-size: .95em;
+	color: #828282;
+}
+#projects-grid article img {
+	display: block;
+	margin: 0 auto .7em;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	box-shadow: 0 0 0 3px #eaeaea;
+	-webkit-box-shadow: 0 0 0 3px #eaeaea;
+}
+
+#projects-grid article a.see-more {
+	font-size: .857em;
+	text-transform: uppercase;
+}
+#projects-grid article a.see-more:hover {
+	text-decoration: none;
+}
+#projects-grid article a.see-more:after {
+	font-family: 'FontAwesome';
+	display: inline-block;
+	font-size: 100%;
+	margin-left: .618em;
+	font-weight: normal;
+	line-height: 1em;
+	width: 1em;
+	text-align: right;
+	content: '\f054';
+	font-size: .9em;
+}
+
+#projects-grid article {
+	float: left;
+	clear: left;
+	width: 49.5%;
+	padding: 5%;
+	border: 1px solid #eaeaea;
+	border-width: 0 1px 1px 0;
+	-webkit-box-sizing: border-box;
+	/* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;
+	/* Firefox, other Gecko */
+	box-sizing: border-box;
+	/* Opera/IE 8+ */
+}
+#projects-grid article:nth-child(2n+2) {
+	border-width: 0 0 1px 1px;
+	margin-left: -1px;
+	clear: right;
+}
+#projects-grid article:last-child {
+	border-bottom: 1px solid #eaeaea;
+}
+
+#projects-options nav {
+	margin-bottom: 0.618em;
+}
+
 #projects-options ul {
 	margin: 0;
 	list-style: none;
@@ -297,6 +383,10 @@ button.button:active,
 #projects-options li {
 	list-style: none;
 	display: inline;
+}
+
+#projects-options p {
+	margin-bottom: 0;
 }
 
 .icon {
@@ -361,5 +451,15 @@ button.button:active,
 		float: none;
 		width: 100%;
 		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#projects-grid article {
+		float: none;
+		clear: both;
+		width: 100%;
+		border-right: none;
+		border-left: none;
 	}
 }

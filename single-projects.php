@@ -36,13 +36,13 @@ $settings = woo_get_dynamic_values( $settings );
 					$docs_url     = get_post_meta( $post->ID, '_docs_url', true );
 					$download_url = get_post_meta( $post->ID, '_download_url', true );
 		?>
-			<article <?php post_class(); ?>>
+			<article <?php post_class( 'post' ); ?>>
 				<?php echo woo_embed( 'width=580' ); ?>
 				<header <?php if ( $settings['thumb_single'] == 'true' && ! woo_embed( '' ) ) { ?> style="background-image: url(<?php echo woo_image( 'return=true&link=url' ); ?>); background-size: cover; background-position: center center;" <?php } ?>>
-					<section class="header-content">
+					<section id="projects-options" class="header-content">
 
 						<h1><?php the_title(); ?></h1>
-						<nav id="projects-options">
+						<nav>
 							<ul class="fix">
 								<?php if ( $github_url ) : ?>
 									<li>
@@ -72,6 +72,7 @@ $settings = woo_get_dynamic_values( $settings );
 								<?php endif; ?>
 							</ul>
 						</nav>
+						<?php the_excerpt(); ?>
 					</section>
 				</header>
 
